@@ -1,5 +1,5 @@
-# ML_Project
-Machine Learning Projects 
+# ML_Project 
+Machine Learning Project 1  
 
 # Customer Churn Prediction & Model Comparison
 
