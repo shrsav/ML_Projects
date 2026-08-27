@@ -44,7 +44,7 @@ accxgb = accuracy_score(y_test, y_pred_xgb, normalize=True, sample_weight=None)
 print(accxgb)
 
 importances = pd.Series(xgbclass.feature_importances_, index=X.columns)
-plt.figure(figsize=(8, 5))
+plt.figure(figsize=(8, 6))
 importances.nlargest(10).sort_values().plot(kind='barh')
 plt.title("Top 10 Feature Importances using XGBoost")
 plt.xlabel("Relative Importance")
