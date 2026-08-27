@@ -25,7 +25,6 @@ logreg = LogisticRegression(max_iter = 1000)
 logreg.fit(X_train, y_train)
 y_pred_logreg = logreg.predict(X_test)
 print(classification_report(y_test, y_pred_logreg, target_names=['Retained', 'Churned']))
-print(y_pred_logreg)
 
 randomforest = RandomForestClassifier(n_estimators = 150, random_state= 42)
 randomforest.fit(X_train, y_train)
