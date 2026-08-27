@@ -5,7 +5,7 @@ Machine Learning Project 1
 
 An end-to-end machine learning project designed to predict customer churn for a telecommunications provider. This project evaluates multiple classification models—Logistic Regression, Random Forest, and XGBoost—to identify high-risk customers and extract key business drivers behind customer attrition.
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn poses a significant financial challenge in subscription-based business models. Acquiring new customers is often significantly more expensive than retaining existing ones. 
 
@@ -16,7 +16,7 @@ The primary goal of this project is to:
 
 ---
 
-## 📊 Dataset & Preprocessing
+## Dataset & Preprocessing
 
 The dataset contains customer demographic data, account details, and service usage information.
 
@@ -29,7 +29,7 @@ The dataset contains customer demographic data, account details, and service usa
 
 ---
 
-## 🤖 Models & Performance Comparison
+## Models & Performance Comparison
 
 Three algorithms were trained and evaluated on the test set:
 
@@ -45,7 +45,7 @@ Three algorithms were trained and evaluated on the test set:
 
 ---
 
-## 📈 Feature Importance Analysis
+## Feature Importance Analysis
 
 Using **XGBoost**, the top 10 most influential features driving customer retention and churn were extracted and visualized. 
 
@@ -53,7 +53,7 @@ The saved visualization (`feature_importances.png`) highlights how specific cont
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **Language:** Python 3.x
 * **Data Handling:** `pandas`, `numpy`
@@ -62,7 +62,7 @@ The saved visualization (`feature_importances.png`) highlights how specific cont
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Clone the repository:**
    ```bash
