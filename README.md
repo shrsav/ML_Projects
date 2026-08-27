@@ -61,10 +61,3 @@ The saved visualization (`feature_importances.png`) highlights how specific cont
 * **Visualization:** `matplotlib`
 
 ---
-
-## How to Run the Project
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/customer-churn-prediction.git](https://github.com/your-username/customer-churn-prediction.git)
-   cd customer-churn-prediction
